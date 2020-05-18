@@ -1,16 +1,12 @@
 jQuery(document).ready(function ($) {
-
-  $('ul#shipping_method input').each(function (index, value) {
+  $('ul#shipping_method input').each(function () {
     var $this = $(this);
     if ($this.val().indexOf("local_pickup") != -1) {
       if ($this.prop('checked')) {
         hideShippingFields();
       }
-
     }
-
   });
-
 
   $(document).on('change', 'ul#shipping_method input', function () {
     var $this = $(this);
