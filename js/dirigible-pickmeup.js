@@ -5,8 +5,12 @@ jQuery(document).ready(function ($) {
       if ($this.prop('checked')) {
         hideShippingFields();
       }
+      if ($this.attr('type') == 'hidden') {
+        hideShippingFields();
+      }
     }
   });
+
 
   $(document).on('change', 'ul#shipping_method input', function () {
     var $this = $(this);
