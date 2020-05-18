@@ -1,0 +1,18 @@
+{
+  "name": "Dirigible Plugins",
+  "namespace": "ds_dirigible_plugins",
+  "description": "Plugin Settings",
+  "groups": [{
+    "name": "Free Pickup",
+    "namespace": "ds_pickmeup_panel",
+    "settings": [{
+      "name": "Slug",
+      "namespace": "ds_pickmeup_id",
+      "default": "documents",
+      "placeholder": "documents",
+      "description": "Enter the ID of the element that 'Free Pickup' is assigned to.",
+      "type": "inline-text",
+      "refresh": "full"
+    }]
+  }]
+}
