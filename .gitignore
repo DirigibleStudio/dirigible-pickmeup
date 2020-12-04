@@ -1,0 +1,10 @@
+
+# Ignore cache
+
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+.DS_Store
+.DS_Store?
+config.codekit3
